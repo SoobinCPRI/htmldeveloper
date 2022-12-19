@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+ <!-- Aqui vai o seu menu -->
+            <h2>Menu</h2>
+            <p><a href="index.html">INICIO</a></p>
+            <p><a href="sobre.html">SOBRE</a></p>
+            <p><a href="horario.html">HORÁRIO</a></p>
+            <p><a href="suporte.html">CONTATO</a></p>
+        </div>
+
+        <div class="main">
+<!-- Aqui vai o seu header -->
+            <div class="header">
+                <img class="imagem" src="assets/baixados.png" alt="ícone de suporte" width="150px">
+            </div>
+    
+            <div class="content">
+<!-- Aqui vai o seu conteúdo -->
+                <h1>Contato</h1>
+                <hr />
+                <fieldset>
+                    <legend><strong>Dados da clínica</strong></legend>
+                    <b>Endereço:</b> Av. Dezessete de Agosto, 295 - Parnamirim, Recife - PE, 52060-590<br>
+                    <b>Telefone:</b> (81) 3033-7591
+                </fieldset>
+                <h4>Localização</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.647122022559!2d-34.91411488522021!3d-8.035269694213964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab19329377417f%3A0x148f6bf51007068b!2sPetz!5e0!3m2!1spt-BR!2sbr!4v1671410214620!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="suporte.html" method="get">
+                    <fieldset>
+                    <legend><strong>Fale conosco</strong></legend>
+                        <div class="row">
+                            <p><label for="nome">Nome:</label><input type="text" name="nome">
+                            <label for="email">Email:</label><input type="email" name="email"></p>
+                        </div>
+                        <div class="row">
+                            <p><label for="assunto">Assunto:</label><input type="text" name="assunto">
+                            </p>
+                        </div>
+                        <div class="row">
+                        <p><label for="mensagem">Mensagem:</label><textarea class="texto" name="mensagem"></textarea>
+                        </p>
+                        </div>
+                        <div class="row">
+                            <button type="submit" class="enviar">Enviar</button>
+                            <button type="reset" class="resetar">Limpar</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+            </div>
+    
+            <div class="footer">
+<!-- Aqui vai o seu rodapé -->
+                <br>
+                <br>
+                <br>
+                <br>
+                © 2022 All rights reserved to Petz
+                <br>
+                silva.josecpri@gmail.com
+            </div>
+        </div>
+    </div>
+</body>
+</html>
