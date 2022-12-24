@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo o html semântico</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <!-- A tag main não pode ser filha de outras, além da body, também só pode haver uma por página. Ela representa o conteúdo central da página. Outras tags estruturais podem estar dentro da main, como footer, mas só se for extremamente relevante para a função do site.-->
+        <article>
+            <!-- Representa um elemento independente do restante da página, ele teria sentido se estivesse sozinho, geralmente possui um header. Article permite aninhamento. Possui a tag time.-->
+        </article>
+        <section>
+            <!-- Ao contrário de um container genérico, a section agrupa itens comuns a uma mesma seção, itens que possuem alguma conexão, o que dá sentido a um section geralmente é um título.-->
+        </section>
+        <aside>
+            <!-- Representa um conteúdo tangencial àquele em que ele está contido, como uma explicação de uma palavra, por exemplo.-->
+        </aside>
+        <figure>
+            <!--Container em que se coloca alguma mídia e uma legenda. O navegador entende que a mídia e o texto dentro da figurecaption estão relacionados-->
+            <figcaption></figcaption>
+        </figure>
+        <picture>
+            <!-- No picture você consegue carregar mais de uma mídia e alterar entre elas via mediaqueries-->
+            <source srcset="" media="">
+            <img src="" alt="">
+        </picture>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
